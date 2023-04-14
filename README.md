@@ -23,7 +23,7 @@ The notebook is divided into two parts. In the first I train DistilBERT on the o
 ## Results
 
    | Version | Loss | Accuracy | F1 Score |
-   | ------------------- | ------- | ------- |  ------- |
+   | ------------------- | ------------------- | ------------------- |  ------------------- |
    | Version1 | 0.3428 | 0.9473 | 0.9475 |
    | Version2 | 0.0882 | 0.9886 | 0.9886 | 
 
