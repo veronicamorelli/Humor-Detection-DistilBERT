@@ -1,7 +1,7 @@
 # Humor-Detection-DistilBERT
 Pre-trained DistilBERT for Humor Detection
 
-## **Task**
+**Task**
 
 The objective of this assigment is to use a pre-trained BERT-based model that correctly classifies texts between humour and non-humour class.
 
@@ -19,6 +19,13 @@ The application of other preprocessing techniques is left to the reader.
 ## **Setup**
 
 The notebook is divided into two parts. In the first I train DistilBERT on the original data, while in the second I train DistilBERT on the original dataset on which I have applied a basic text preprocessing pipeline. I use `DistilBertTokenizerFast` as tokenizer and `DistilBertForSequenceClassification` as model from HuggingFace. I evaluate my performances calculating Accuracy and F1 Score. 
+
+## Results
+
+   | Version | Loss | Accuracy | F1 Score |
+   | ------------- | ------- | ------- |  ------- |
+   | Version1 | 0.3428 | 0.9473 | 0.9475 |
+   | Version2 | 0.0882 | 0.9886 | 0.9886 | 
 
 ## **How to Run the Code**
 
