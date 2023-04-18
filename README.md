@@ -1,5 +1,5 @@
 # Humor-Detection-DistilBERT
-Pre-trained DistilBERT for Humor Detection
+Pre-trained DistilBERT for Humor Detection.
 
 **Task**
 
